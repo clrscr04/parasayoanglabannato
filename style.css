@@ -1,0 +1,123 @@
+/* body{
+  background-image: url("images/logoFull.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: #35363a;
+  background-attachment: fixed;
+} */
+
+.navbar-custom {
+  background-color: #B5C7CF !important;
+}
+
+.nav-link {
+  color: #2A2F34 !important;
+}
+
+.nav-link:hover {
+  color: #8C949C !important;
+}
+
+.logoImg {
+  width: 2em;
+}
+
+
+
+.mainBannerImage {
+  width: 400px;
+}
+
+.mainBanner {
+  background-image: url("images/bannerBackground.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.foreground{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: white;
+  opacity: 0.4;
+  z-index: -1;
+}
+
+.bannerMess {
+  padding: 30px;
+}
+
+.text1 {
+  z-index: 2;
+  font-size: 65px;
+  font-weight: bold;
+  display: block;
+  -webkit-text-stroke: 2px white;
+}
+
+.text2 {
+  z-index: 2;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: oblique;
+  -webkit-text-stroke: 1px white;
+}
+
+.bannerImgDiv {
+  text-align: center;
+}
+
+
+.missionSection {
+
+  background-color: white;
+  text-align: center;
+  padding: 5em
+}
+
+.firstMission, .secondMission, .thirdMission {
+  margin-top: 2em;
+
+}
+
+.missionImg{
+  width: 300px;
+  clip-path: circle();
+}
+
+.missionTitle {
+  font-size: 30px;
+  font-weight: bolder;
+  display: block;
+}
+
+.contactPortion{
+  background-color: #2A2F34;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.contactPortion a{
+  color: white;
+}
+
+.contactPortion span{
+  display: block;
+  margin-top: 10px;
+}
+
+.socialMedia, .onlineShop, .contactUs{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.contactPortion h5{
+  border-bottom: 2px solid white;
+}
